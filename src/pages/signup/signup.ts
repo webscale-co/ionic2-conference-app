@@ -14,19 +14,7 @@ import { UxMessage } from '../../core/constants';
 
 @Component({
   selector: 'page-signup',
-  template: `
-  <ion-header>
-    <ion-navbar>
-      <button ion-button menuToggle>
-        <ion-icon name="menu"></ion-icon>
-      </button>
-      <ion-title>Signup</ion-title>
-    </ion-navbar>
-  </ion-header>
-  <ion-content>
-    <signup-form (onSignup)="onSignup($event)"></signup-form>
-  </ion-content>
-  `
+  templateUrl: 'signup.html'
 })
 export class SignupPage {
 
